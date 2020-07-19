@@ -1,0 +1,71 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #2B4162;
+}
+
+h1 {
+  font-family: fjalla one;
+  color: #D7B377;
+}
+
+.intro {
+  background-image: url("https://cdn.glitch.com/8881b1dd-f3e7-40d4-8667-b37d671c6fe9%2Fbook.jpeg?v=1595035056288");
+  background-position: center;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed;
+   box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
+}
+
+.intro-text {
+  padding: 6%;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+}
+
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #84a9acff;
+  border-style: solid;
+  border-color: #ffffffff;
+}
+
+/* TODO (optional): Change the font size*/
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 15px;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 15px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #a1cdd0ff;
+  color: #697583;
+}
